@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="古田明洋果蔬贸易有限公司成交公告">
+    <meta property="og:title" content="成交公告 - 办公楼物业服务项目">
+    <meta property="og:description" content="古田明洋果蔬贸易有限公司办公楼物业服务项目成交公告">
+    <meta property="og:type" content="website">
+    <title>成交公告 - 办公楼物业服务项目</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            background: #f5f7fa;
+            min-height: 100vh;
+            padding: 0;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            margin: 0 auto;
+            background: white;
+            min-height: 100vh;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
+        }
+
+        @media (min-width: 801px) {
+            body {
+                padding: 20px;
+            }
+            .container {
+                min-height: auto;
+                border-radius: 16px;
+                overflow: hidden;
+            }
+        }
+
+        /* 头部 */
+        .header {
+            background: linear-gradient(135deg, #e67e22 0%, #d35400 100%);
+            color: white;
+            padding: 40px 24px;
+            text-align: center;
+            position: relative;
+        }
+
+        .header-icon {
+            font-size: 3em;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .header h1 {
+            font-size: 1.8em;
+            margin-bottom: 8px;
+            font-weight: 600;
+            letter-spacing: 8px;
+        }
+
+        .header .subtitle {
+            opacity: 0.9;
+            font-size: 0.95em;
+        }
+
+        /* 内容区 */
+        .content {
+            padding: 30px 24px;
+        }
+
+        /* 标签 */
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            background: #fff3e0;
+            color: #e65100;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        /* 元信息 */
+        .meta-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 24px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .meta-item svg {
+            width: 16px;
+            height: 16px;
+            color: #e67e22;
+            flex-shrink: 0;
+        }
+
+        /* 标题 */
+        .announcement-title {
+            font-size: 1.4em;
+            color: #1a1a1a;
+            margin-bottom: 20px;
+            line-height: 1.4;
+            font-weight: 700;
+            word-break: break-word;
+        }
+
+        /* 正文 */
+        .announcement-body {
+            color: #333;
+            line-height: 2;
+            font-size: 1em;
+            margin-bottom: 24px;
+        }
+
+        .announcement-body p {
+            margin-bottom: 14px;
+            word-break: break-word;
+        }
+
+        .info-section {
+            margin: 20px 0;
+        }
+
+        .info-section h3 {
+            color: #d35400;
+            font-size: 1.1em;
+            margin-bottom: 12px;
+            padding-left: 12px;
+            border-left: 4px solid #e67e22;
+        }
+
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12px 0;
+        }
+
+        .info-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .info-table td:first-child {
+            width: 30%;
+            color: #666;
+            font-weight: 500;
+            background: #fafafa;
+        }
+
+        .info-table td:last-child {
+            color: #333;
+            font-weight: 600;
+        }
+
+        .highlight-amount {
+            color: #c62828;
+            font-size: 1.2em;
+            font-weight: 700;
+        }
+
+        /* 底部落款 */
+        .signature {
+            margin-top: 40px;
+            text-align: right;
+            color: #333;
+            line-height: 2;
+        }
+
+        .signature .company-name {
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+
+        .signature .date {
+            color: #666;
+        }
+
+        /* 分享区 */
+        .share-section {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .share-section p {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 12px;
+        }
+
+        .share-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 12px 28px;
+            background: linear-gradient(135deg, #e67e22 0%, #d35400 100%);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            -webkit-appearance: none;
+            width: 100%;
+            justify-content: center;
+        }
+
+        @media (min-width: 480px) {
+            .share-btn {
+                width: auto;
+            }
+        }
+
+        .share-btn:active {
+            transform: scale(0.96);
+            opacity: 0.9;
+        }
+
+        .share-btn svg {
+            flex-shrink: 0;
+        }
+
+        /* 底部 */
+        .footer {
+            background: #f8f9fa;
+            padding: 20px 24px;
+            text-align: center;
+            color: #888;
+            font-size: 0.85em;
+            border-top: 1px solid #eee;
+        }
+
+        .footer p {
+            margin-bottom: 4px;
+        }
+
+        /* 提示条 */
+        .toast {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.9);
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 14px 28px;
+            border-radius: 8px;
+            font-size: 0.95em;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s ease;
+            z-index: 1000;
+            white-space: nowrap;
+        }
+
+        .toast.show {
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        /* 打印 */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+            }
+            .share-section {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <div class="header">
+            <span class="header-icon">📋</span>
+            <h1>成 交 公 告</h1>
+            <p class="subtitle">古田明洋果蔬贸易有限公司</p>
+        </div>
+
+        <!-- 内容 -->
+        <div class="content">
+            <span class="badge">询价采购</span>
+
+            <div class="meta-info">
+                <div class="meta-item">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                    </svg>
+                    <span>发布日期：2024年3月6日</span>
+                </div>
+                <div class="meta-item">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <span>公告期限：1个工作日</span>
+                </div>
+            </div>
+
+            <div class="announcement-body">
+                <div class="info-section">
+                    <h3>一、项目名称</h3>
+                    <p>办公楼物业服务项目</p>
+                </div>
+
+                <div class="info-section">
+                    <h3>二、采购方式</h3>
+                    <p>询价</p>
+                </div>
+
+                <div class="info-section">
+                    <h3>三、中标（成交）信息</h3>
+                    <table class="info-table">
+                        <tr>
+                            <td>供应商名称</td>
+                            <td>邵武朗威物业管理服务有限公司</td>
+                        </tr>
+                        <tr>
+                            <td>中标（成交）金额</td>
+                            <td><span class="highlight-amount">80,000 元</span></td>
+                        </tr>
+                        <tr>
+                            <td>服务期限</td>
+                            <td>1 年</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="info-section">
+                    <h3>四、公告期限</h3>
+                    <p>自本公告发布之日起 1 个工作日。</p>
+                </div>
+            </div>
+
+            <!-- 落款 -->
+            <div class="signature">
+                <p class="company-name">古田明洋果蔬贸易有限公司</p>
+                <p class="date">2024年3月6日</p>
+            </div>
+
+            <!-- 分享 -->
+            <div class="share-section">
+                <p>📎 点击复制链接，分享给他人查看</p>
+                <button class="share-btn" onclick="copyLink()">
+                    <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path>
+                    </svg>
+                    复制公告链接
+                </button>
+            </div>
+        </div>
+
+        <!-- 底部 -->
+        <div class="footer">
+            <p>© 古田明洋果蔬贸易有限公司</p>
+            <p>公告编号：ANN-20240306-001</p>
+        </div>
+    </div>
+
+    <!-- 提示条 -->
+    <div class="toast" id="toast">链接已复制！</div>
+
+    <script>
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            toast.textContent = msg;
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 2000);
+        }
+
+        function copyLink() {
+            const url = window.location.href;
+            
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(url).then(() => {
+                    showToast('链接已复制，快去分享吧！');
+                }).catch(() => {
+                    fallbackCopy(url);
+                });
+            } else {
+                fallbackCopy(url);
+            }
+        }
+
+        function fallbackCopy(text) {
+            const input = document.createElement('textarea');
+            input.value = text;
+            input.style.position = 'fixed';
+            input.style.left = '-9999px';
+            document.body.appendChild(input);
+            input.focus();
+            input.select();
+            
+            try {
+                document.execCommand('copy');
+                showToast('链接已复制，快去分享吧！');
+            } catch (err) {
+                showToast('复制失败，请手动复制地址栏链接');
+            }
+            
+            document.body.removeChild(input);
+        }
+    </script>
+</body>
+</html>
